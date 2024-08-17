@@ -29,6 +29,7 @@ async def load_extensions():
     await bot.load_extension("logs")
     await bot.load_extension("welcomeandleave.welcome")
     await bot.load_extension("welcomeandleave.leave")  
+    await bot.load_extension("ticketsystem.ticket")  
 
 async def main():
     await load_extensions()
