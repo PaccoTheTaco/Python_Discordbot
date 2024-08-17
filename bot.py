@@ -14,6 +14,8 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 @bot.event
 async def on_ready():
     print(f'Bot ist eingeloggt als {bot.user.name}')
+    activity = discord.Activity(type=discord.ActivityType.watching, name="Paccos Discord")
+    await bot.change_presence(activity=activity)
     try:
         synced = await bot.tree.sync()
         print(f"Slash-Commands synchronisiert: {len(synced)} Befehle")
