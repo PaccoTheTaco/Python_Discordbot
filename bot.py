@@ -8,6 +8,8 @@ TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 
 intents = discord.Intents.default()
 intents.message_content = True  
+intents.messages = True  
+intents.members = True  
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
@@ -24,6 +26,9 @@ async def on_ready():
 
 async def load_extensions():
     await bot.load_extension("slashcommands.ping")
+    await bot.load_extension("logs")
+    await bot.load_extension("welcomeandleave.welcome")
+    await bot.load_extension("welcomeandleave.leave")  
 
 async def main():
     await load_extensions()
