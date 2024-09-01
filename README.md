@@ -14,7 +14,7 @@ Es gibt auch Commands für den Spaß:
 
 Der standart /ping Command dafür natürlich nicht fehlen, dieser zeigt die Latenzzeit:
 
-![ping](/example_pics/pings.png)
+![ping](/example_pics/ping.png)
 
 Um diesen Bot selber laufen lassen zu können muss man folgende Schritte machen:
 - falls du noch keinen Discordbot hast dann erstelle im [Discord Developer Portal](https://discord.com/developers/applications) einen Bot
@@ -44,7 +44,7 @@ There are also commands for fun:
 
 The standard /ping command for this is of course not missing, this shows the latency time:
 
-![ping](/example_pics/pings.png)
+![ping](/example_pics/ping.png)
 
 To run this bot yourself you have to do the following steps:
 - if you don't have a Discordbot yet then create a bot in the [Discord Developer Portal](https://discord.com/developers/applications)
