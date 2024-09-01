@@ -18,7 +18,7 @@ Der standart /ping Command dafür natürlich nicht fehlen, dieser zeigt die Late
 
 Um diesen Bot selber laufen lassen zu können muss man folgende Schritte machen:
 - falls du noch keinen Discordbot hast dann erstelle im [Discord Developer Portal](https://discord.com/developers/applications) einen Bot
-- lade die neuste ZIP datei von der ![Release Seite](https://github.com/PaccoTheTaco/Python_Discordbot/releases) herunter
+- lade die neuste ZIP datei von der [Release Seite](https://github.com/PaccoTheTaco/Python_Discordbot/releases) herunter
 - entpacke die zip und speichere den Ordner auf deinem Server
 - installiere Python wenn du es noch nicht hast (sudo apt install python3)
 - installiere dir nun pip wenn du es noch nicht hast (sudo apt-get install python3-pip)
@@ -48,7 +48,7 @@ The standard /ping command for this is of course not missing, this shows the lat
 
 To run this bot yourself you have to do the following steps:
 - if you don't have a Discordbot yet then create a bot in the [Discord Developer Portal](https://discord.com/developers/applications)
-- download the latest ZIP file from the ![Release Page](https://github.com/PaccoTheTaco/Python_Discordbot/releases)
+- download the latest ZIP file from the [Release Page](https://github.com/PaccoTheTaco/Python_Discordbot/releases)
 - extract the zip and save the folder on your server
 - install python if you don't have it yet (sudo apt install python3)
 - now install pip if you don't have it yet (sudo apt-get install python3-pip)
